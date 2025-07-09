@@ -1,6 +1,6 @@
 name: pulumi-ts-skeleton
-stackConfigDir: stacks
 runtime:
   name: nodejs
   options:
     nodeargs: "--loader ts-node/esm --no-warnings"
+stackConfigDir: stacks
