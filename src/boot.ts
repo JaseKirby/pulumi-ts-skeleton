@@ -1,4 +1,4 @@
-import { Config } from "./config.js";
+import type { Config } from "./config.js";
 
 export interface BooterProps {
   readonly config: Config;
