@@ -1,9 +1,12 @@
 {
 	"$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
-	"vcs": {
-		"enabled": true,
-		"clientKind": "git",
-		"useIgnoreFile": true
+	"assist": {
+		"actions": {
+			"source": {
+				"useSortedKeys": "on"
+			}
+		},
+		"enabled": true
 	},
 	"formatter": {
 		"enabled": true,
@@ -12,10 +15,15 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true,
 			"nursery": {
 				"noFloatingPromises": "error"
-			}
+			},
+			"recommended": true
 		}
+	},
+	"vcs": {
+		"clientKind": "git",
+		"enabled": true,
+		"useIgnoreFile": true
 	}
 }
